@@ -1,19 +1,30 @@
-# Rockelivery
+<h1 align="center">
+    <img width="120" alt="Ignite" src="https://res.cloudinary.com/dqcqifjms/image/upload/v1615216700/felipejung/ignite.png" />
+    <br>
+    Ignite - Elixir - Rockelivery
+</h1>
 
-To start your Phoenix server:
+<h4 align="center">
+  A Phoenix application for deliveries management :pizza:
+</h4>
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+## :information_source: How To Use
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+```bash
+In development
+```
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## :heavy_check_mark: Running the tests
 
-## Learn more
+```bash
+In development
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+```
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/felipe-jm/ignite-elixir-rockelivery/blob/master/LICENSE) for more information.
+
+---
+
+Made with much :heart: and :muscle: by Felipe Jung :blush: <a href="https://www.linkedin.com/in/felipe-jung/">Talk to me!</a>
