@@ -11,14 +11,64 @@
 ## :information_source: How To Use
 
 ```bash
-In development
+# Run server
+mix phx.server
 ```
+
+### Create user
+
+> POST http://localhost:4000/api/users
+
+Body:
+
+```json
+{
+  "address": "Rua 35",
+  "age": 21,
+  "cep": "12332112",
+  "cpf": "12332112312",
+  "email": "felipe@gmail.com",
+  "name": "felipe",
+  "password": "123456"
+}
+```
+
+### Update user
+
+> PUT http://localhost:4000/api/users/:user_id
+
+Body:
+
+```json
+{
+  "address": "Rua 35",
+  "age": 21,
+  "cep": "12332112",
+  "cpf": "12332112312",
+  "email": "felipe@gmail.com",
+  "name": "felipe atualizado",
+  "password": "123456"
+}
+```
+
+### Get user
+
+> GET http://localhost:4000/api/users/:user_id
+
+### Delete user
+
+> DELETE http://localhost:4000/api/users/:user_id
 
 ## :heavy_check_mark: Running the tests
 
 ```bash
-In development
+mix test
+...........
 
+Finished in 1.2 seconds
+11 tests, 0 failures
+
+Randomized with seed 74578
 ```
 
 ## :memo: License
